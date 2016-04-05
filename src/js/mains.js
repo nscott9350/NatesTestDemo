@@ -10,4 +10,4 @@ $.ajax({
     error: function () {
         alert("Application not found");
     }
-})(jQuery);
+});
