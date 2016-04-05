@@ -16,3 +16,7 @@ $.ajax({
 function callback(data){
     alert('Application ' + data.application + ' is ALIVE!!');
 }
+
+function jsonpcallback(data){
+    alert('Application ' + data.application + ' is ALIVE!!');
+}
