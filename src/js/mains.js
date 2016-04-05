@@ -1,5 +1,6 @@
 $.ajax({
-    dataType: 'jsonp',
+    dataType: 'JSONP',
+    jsonpCallback: 'callback',
     url: 'http://appb.example.com/RestWebService-1/rest/hello',
     type: "GET",
     success: function (data) {
@@ -7,6 +8,5 @@ $.ajax({
     },
     error: function () {
         alert("Application not found");
-    },
-    jsonp: 'jsonp'
+    }
 });
