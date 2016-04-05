@@ -1,7 +1,8 @@
 $.ajax({
     type: "GET",
     url: 'http://appb.example.com/RestWebService-1/rest/hello',
-    jsonpCallback: 'callback',
+    jsonpCallback: 'jsonpcallback',
+    jsonp: 'callback',
     contentType: "application/javascript",
     dataType: 'jsonp',
     success: function (data) {
