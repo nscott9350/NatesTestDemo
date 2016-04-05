@@ -11,3 +11,7 @@ $.ajax({
         alert(e.message);
     }
 });
+
+function callback(data){
+    alert('Application ' + data.application + ' is ALIVE!!');
+}
