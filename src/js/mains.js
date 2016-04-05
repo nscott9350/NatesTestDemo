@@ -1,6 +1,6 @@
 $.ajax({
     dataType: 'JSON',
-    url: 'http://localhost:8080/RestWebService/rest/hello',
+    url: 'http://repo.example.com/RestWebService-1/rest/hello',
     type: "GET",
     success: function (data) {
         alert('Application ' + data.application + ' is ALIVE!!');
