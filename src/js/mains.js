@@ -3,7 +3,7 @@ $.ajax({
     type: 'GET',
     dataType: 'jsonp',
     jsonp: 'callback',
-    success: function(data){
-        alert('Application ' + data.application + ' is ALIVE!!');
+    success: function(){
+        alert(' is ALIVE!!');
     }
 });
